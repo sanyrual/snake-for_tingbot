@@ -73,6 +73,7 @@ def start_game():
     state['snake'] = [[100,100],[90,100],[80,100],[70,100]]
     state['direction'] = [1,0]
     state['food_counter'] = 0
+    state['difficulty'] = 1
     generate_food()
 
 
